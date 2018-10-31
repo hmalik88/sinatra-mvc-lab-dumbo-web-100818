@@ -6,8 +6,6 @@ class PigLatinizer
     x
   end
 
-  private
-
   def piglatinize_word(word)
     vowels = ["a","A","e","E","i","I","o","O","u","U"]
     split_word = word.split('')
